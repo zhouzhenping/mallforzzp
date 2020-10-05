@@ -2,8 +2,9 @@ package com.zzp.mall.mapper;
 
 import com.zzp.mall.model.InnodbTableStats;
 import com.zzp.mall.model.InnodbTableStatsExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface InnodbTableStatsMapper {
     int countByExample(InnodbTableStatsExample example);

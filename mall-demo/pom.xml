@@ -1,22 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>mall-admin</artifactId>
-    <packaging>war</packaging>
-    <name>mall-admin</name>
-    <url>http://maven.apache.org</url>
+
+    <groupId>com.zzp.mall</groupId>
+    <artifactId>mall-demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>mall-demo</name>
+    <description>Demo project for Spring boot</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.7.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <relativePath/>
     </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <projrct.reporting.outputEncoding>UTF-8</projrct.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
 
@@ -68,6 +73,7 @@
             <version>1.2.3</version>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -76,5 +82,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
